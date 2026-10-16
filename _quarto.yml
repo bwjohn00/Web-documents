@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Barry Johnson for ASA President"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true

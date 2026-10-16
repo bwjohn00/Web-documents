@@ -1,0 +1,123 @@
+
+/* Overall page */
+body {
+  line-height: 1.7;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  font-weight: 650;
+}
+
+/* Opening section */
+.me-section {
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem 0 4rem;
+}
+
+.me-section h1 {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.me-photo {
+  width: 100%;
+  max-width: 340px;
+  justify-self: end;
+  border-radius: 12px;
+}
+
+/* Vision and achievement cards */
+.vision-grid,
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.achievement-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.vision-card,
+.achievement-card {
+  padding: 1.5rem;
+  border: 1px solid #d9e1e8;
+  border-radius: 10px;
+  background: #f7f9fb;
+}
+
+.vision-card h3,
+.achievement-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .me-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .me-photo {
+    justify-self: start;
+    max-width: 260px;
+  }
+
+  .vision-grid,
+  .achievement-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ASA service section */
+.asa-service-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.8fr);
+  gap: 3rem;
+  align-items: center;
+  margin: 1.5rem 0 3rem;
+}
+
+.asa-service-content {
+  min-width: 0;
+}
+
+.asa-service-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asa-service-image img {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .asa-service-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .asa-service-image {
+    justify-content: flex-start;
+  }
+
+  .asa-service-image img {
+    max-width: 300px;
+  }
+}

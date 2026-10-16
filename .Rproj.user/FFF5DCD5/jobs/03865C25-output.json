@@ -3,3 +3,5 @@
 [1,"Output created: docs\\index.html\n\nPreparing to preview\n"]
 [1,"\nWatching files for changes\nBrowse at http://localhost:6321/\nListening on http://127.0.0.1:6321/\n"]
 [1,"GET: /\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Barry Johnson for ASA President\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - style.css\n  toc: true\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  engines:\n    - path: C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\share\\extension-subtrees\\julia-engine\\_extensions\\julia-engine\\julia-engine.js\n  theme: cosmo\n  smooth-scroll: true\n  title: Barry Johnson for ASA President\n  description: Leadership, service, and a vision for the future of statistics.\n  about:\n    template: marquee\n    links:\n      - icon: linkedin\n        text: LinkedIn\n        href: https://www.linkedin.com/in/barry-johnson-5626a48a/\n  \n"]
+[1,"Output created: docs\\index.html\n\nWatching files for changes\n"]
